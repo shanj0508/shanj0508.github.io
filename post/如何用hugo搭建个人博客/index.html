@@ -47,7 +47,7 @@ Mac安装方式 输入命令：
  hugo new site quickstart &ndash;建立新网站 cd quickstart git init &ndash;初始化 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke &ndash;添加主题 echo &lsquo;theme = &ldquo;ananke&rdquo;&rsquo; &raquo; config.toml &ndash;将主题添加到站点配置中 hugo new posts/my-first-post.md &ndash;添加新文件（博客文章）     --- title: &quot;My First Post&quot; date: 2019-03-26T08:47:11&#43;01:00 draft: true --- 这是我的第一篇博客文章  hugo server -D &ndash;重启服务 将config.">
 <meta itemprop="datePublished" content="2020-01-29T10:42:21&#43;08:00" />
 <meta itemprop="dateModified" content="2020-01-29T10:42:21&#43;08:00" />
-<meta itemprop="wordCount" content="120">
+<meta itemprop="wordCount" content="121">
 
 
 
@@ -214,7 +214,7 @@ Mac安装方式 输入命令：
 <ul>
 <li>在站点根目录路径下，使用命令新建文章：hugo new post/文章名称.md</li>
 <li>重启服务：hugo server 或 hugo server -D</li>
-<li>hugo</li>
+<li>hugo   &ndash;重新编译，生成public文件</li>
 <li>cd public/</li>
 <li>git add .</li>
 <li>git commit</li>
