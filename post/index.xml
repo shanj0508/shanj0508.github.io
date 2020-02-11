@@ -50,17 +50,5 @@ Mac安装方式 输入命令：
       <description>大家好 这是我的第一篇博客，希望以后我能坚持写优秀的博客文章~加油~</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>https://shanj0508.monster/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://shanj0508.monster/post/html%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE1/</guid>
-      <description>HTML 常用标签 预览网页小工具 http server //安装命令:安装后自动加入path，可以直接使用 $ yarn global add http-server //使用命令 .可以省略；-c表示缓存，-c-1表示不需要缓存 $ http-server . -c-1 //缩写 $ hs -c-1 //执行命令后，给出访问链接，按住ctrl点击链接打开浏览器 //在url输入栏后面加上要打开的html页面的名称(例如：a-href.html)进行访问。 parcel //安装命令 $ yarn global add parcel //使用命令 $parcel xxx.html //执行命令后，给出访问链接，按住ctrl点击链接打开浏览器 a 标签 属性 href 全称：hyper reference 超级引用，超链接
-&amp;lt;a href=&amp;#34;http://baidu.com&amp;#34; target=&amp;#34;_blank&amp;#34; download&amp;gt;超链接&amp;lt;/a&amp;gt; 取值   网址
- https://baidu.com http://baidu.com //baidu.com （//会自动选择是用 http 或 https）    路径 - /a/b/c 或 a/b/c - index.html 或 ./index.html
-&amp;lt;a href=&amp;#34;index.</description>
-    </item>
-    
   </channel>
 </rss>
