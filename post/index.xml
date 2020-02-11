@@ -44,13 +44,13 @@ VScode代码格式化 安装插件-prettier   打开VScode，按下图操作搜�
       <pubDate>Wed, 29 Jan 2020 10:42:21 +0800</pubDate>
       
       <guid>https://shanj0508.monster/post/%E5%A6%82%E4%BD%95%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</guid>
-      <description>如何用hugo搭建个人博客 安装Hugo Hugo是go语言实现的博客生成器，js语言实现的博客生成器是Hexo(难用，不推荐)。
+      <description>如何用 hugo 搭建个人博客 安装 Hugo Hugo 是 go 语言实现的博客生成器，js 语言实现的博客生成器是 Hexo(难用，不推荐)。
 官方教程：https://gohugo.io/getting-started/installing
-Mac安装方式 输入命令：
- brew install hugo hugo version  Windows安装方式  访问Hugo releases页面：https://github.com/gohugoio/hugo/releases，下载hugo_xxx_Windows-64bit.zip 解压，把hugo.exe放到D:\self-software\hugo\hugo.exe目录下 把D:\self-software\hugo\添加到PATH 重启终端，运行hugo version查看版本  快速搭建本地博客   访问Hugo官网：https://gohugo.io/
+Mac 安装方式 输入命令：
+ brew install hugo hugo version  Windows 安装方式  访问 Hugo releases 页面：https://github.com/gohugoio/hugo/releases，下载hugo_xxx_Windows-64bit.zip 解压，把 hugo.exe 放到 D:\self-software\hugo\hugo.exe 目录下 把 D:\self-software\hugo\添加到 PATH 重启终端，运行 hugo version 查看版本  快速搭建本地博客   访问 Hugo 官网：https://gohugo.io/
   在官网首页点击【Quick Start】按钮快速开始
-  按照Hugo教程完成步骤2-7(步骤1我们上面已经完成了)
- hugo new site quickstart &amp;ndash;建立新网站 cd quickstart git init &amp;ndash;初始化 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke &amp;ndash;添加主题 echo &amp;lsquo;theme = &amp;ldquo;ananke&amp;rdquo;&amp;rsquo; &amp;raquo; config.toml &amp;ndash;将主题添加到站点配置中 hugo new posts/my-first-post.md &amp;ndash;添加新文件（博客文章）     --- title: &amp;quot;My First Post&amp;quot; date: 2019-03-26T08:47:11+01:00 draft: true --- 这是我的第一篇博客文章  hugo server -D &amp;ndash;重启服务 将config.</description>
+  按照 Hugo 教程完成步骤 2-7(步骤 1 我们上面已经完成了)
+ hugo new site quickstart &amp;ndash;建立新网站 cd quickstart git init &amp;ndash;初始化 git submodule add https://github.</description>
     </item>
     
     <item>
